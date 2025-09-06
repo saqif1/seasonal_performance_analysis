@@ -545,5 +545,15 @@ def main():
         else:
             st.error("Analysis failed. Please check your inputs and try again.")
 
+    # LinkedIN
+    st.markdown("### Connect with Me!")
+
+    st.markdown("""
+    <a href="https://www.linkedin.com/in/saqif-juhaimee-17322a119/">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="20">
+        Saqif Juhaimee
+    </a>
+    """, unsafe_allow_html=True)
+
 if __name__ == "__main__":
     main()
