@@ -544,7 +544,8 @@ def main():
             display_results(result)
         else:
             st.error("Analysis failed. Please check your inputs and try again.")
-
+    
+    st.markdown("---")
     # LinkedIN
     st.markdown("### Connect with Me!")
 
